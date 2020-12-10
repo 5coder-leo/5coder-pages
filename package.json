@@ -1,0 +1,39 @@
+{
+  "name": "5coder-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "5coder-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/leo/5coder-pages#readme",
+  "bugs": {
+    "url": "https://github.com/leo/5coder-pages/issues"
+  },
+  "license": "MIT",
+  "author": "Leo <19924519007@163.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo/5coder-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
